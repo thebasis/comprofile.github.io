@@ -12,8 +12,8 @@ $mail->Host = "smtp.gmail.com"; //hostname masing-masing provider email
 // $mail->SMTPDebug = 4;
 $mail->Port = 465;
 $mail->SMTPAuth = true;
-$mail->Username = "uchiharizky2014@gmail.com"; //user email
-$mail->Password = "Kalamani2"; //password email
+$mail->Username = "basistech123@gmail.com"; //user email
+$mail->Password = "BasisBangAhyar123"; //password email
 $mail->SetFrom($emailFrom, $emailFrom); //set email pengirim
 $mail->Subject = $subject; //subyek email
 $mail->AddAddress($receiving_email_address,'Rizky Pratama'); //tujuan email
